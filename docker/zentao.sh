@@ -5,7 +5,7 @@ dir=`ls /opt/zbox`
 
 if [ -z "${dir}" ];then
   cd /tmp
-  tar -zxvf  ZenTaoPMS.9.0.stable.zbox_64.tar.gz -C   /opt
+  tar cp -R zbox /opt
 fi
 
 /opt/zbox/zbox start && tail -f /dev/null
