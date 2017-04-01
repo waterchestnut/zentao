@@ -8,3 +8,5 @@ docker run --name zentao -d -p=10080:80 -v=/home/docker/data/zentao/zbox:/opt/zb
 ```base
 http://HOST_IP:10080
 ```
+## 默认用户
+admin/123456
